@@ -56,7 +56,6 @@ function App() {
     setData({
       address: account,
     });
-  
     // Setting a balance
     getbalance(account);
   };
@@ -84,5 +83,6 @@ function App() {
     </div>
   );
 }
+
   
 export default App;
